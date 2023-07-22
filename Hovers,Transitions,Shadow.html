@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Hovers, Transitions, Shadow Practice </title>
+    <link rel="stylesheet" href="styles/Hovers,transition,shadow.css">
+  </head>
+  <body>
+    <br>
+<a href="https://www.youtube.com/" target="_blank" class="Youtube-link">
+  Link to Youtube
+</a>
+
+
+<button class="subscribe-button">
+  SUBSCRIBE
+</button>
+
+
+<button class="join-button">
+  JOIN    
+</button>
+
+
+<button class="tweet-button">
+  Tweet
+</button>
+
+
+<button class="uber-button">
+  Request now
+</button>
+
+
+<button class ="amazon-button">
+  Add to Cart
+</button>
+
+
+<button class="download-button">
+  Download
+</button>
+
+
+<button class="company-button">
+  Apply on company website
+</button>
+
+
+<button class="start-button">
+  Get started
+</button>
+
+
+<button class="save-button">
+  Save
+</button>
+
+
+<button class="Sign-button">
+  Sign up
+</button>
+
+<br>
+<button class="back-button">Back</button>
+<a href="https://www.youtube.com/" class="number-button" target="_blank">1</a>
+<a href="https://www.youtube.com/" class="number-button" target="_blank">2</a>
+<a href="https://www.youtube.com/" class="number-button" target="_blank">3</a>
+<a href="https://www.youtube.com/" class="number-button" target="_blank">4</a>
+<button class="next-button">Next</button>
+
+<button class="stretch-button">
+  Stretch
+</button>
+
+<button class="shadow-button">
+  Shadow
+</button>
+
+<br>
+<button class="one-button">
+  One
+</button>
+
+<button class="two-button">
+  Two
+</button>
+
+<button class="three-button">
+  Three
+</button>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+<!--Now in this case we use transitions, hovers, and shadows for effects.
+ .class-Name ":" and hover "keyword" and Making this class structure As "Pseudo-Class".
+ When we move our cursor to subscribe it will apply the additional effects to the already 
+ class-made button so it will apply its attribute also without any change in the previous ones-->
+
+<!-- Hover: activates when you move your cursor to the button-->
+<!-- Active: activates when you click the button -->
+<!-- Opacity: It fades the element which in this case is a button in hover transition::
+    It accepts the value between 0 (Full fade) and 1 (No fade).-->
+
+<!-- To reverse the effect when you hover over a button just simply replace the color of text with background color and vice-versa-->
+<!-- Now for smooth appearance of effects such as opacity and color-changing we will use::
+  "Transition": Accepts two values; 
+  1st one is which effect you want to apply on (in this case is opacity)
+  2nd one is how long you want to apply that transition will take like in seconds (1s,2s,2.5s...) and so on.-->
+
+<!-- Also You can apply the transition effect on multiple things such as in join button you can see that::
+  transition for background-color and then font (color) both seperated by "," and have different or same times!-->
+
+<!-- Transition property should be base css style class not in hover or in active!-->
+<!-- "box-shadow" is used for applying shadow effect. 
+  It takes four values::
+  1st value-> Horizontal pixel (right or along)
+  2nd value-> Vertical pixel (Down or beneath)
+  3rd value-> Blur pixel
+  4th value-> Color (Shadow color) 
+  Usually the shadows are not type of any color so we use "rgba" in this in which red,green,blue and 4th a means the opacity of shadow (how see-through it is)
+  rgba takes 4 values -> red,green,blue and opacity which is basically less than zero in rgb is set to black .
+  So, in this case we apply box-shadow inside hover to apply its effect only when we hover over the button. But transition will be applied in base css style as said!-->
+<!-- Another way of assigning color is "hex" normally found in dev-tools in web-page.
+  You can normally put that hex in "hex to rgb" calculator to find the exact numbers of red,green and blue.-->
+<!-- Computed tab in dev-tools shows the final values of every element and its attributes!-->
+<!-- CSS box model provides you much convinient feature such as "padding". height and width of a button is just for button layout but if we put much lengthier words inside a box then it will overflow!
+  So to provide "Inner-Spacing" we will use "padding".
+  IN SHORT: it means how much space an element takes up & how far it is away from model.
+  IT is seen in computed area of "dev-tools" inside chrome browser.-->
+
+<!--Padding is much better alternative than height and width because it arranges inside spacing on whatever text is present inside-->
+<!--Vertical-align just aligns the buttons in this case is "top".-->

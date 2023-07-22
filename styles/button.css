@@ -1,0 +1,111 @@
+.subscribe-button {
+    background-color: rgb(200, 0, 0);
+    color: white;
+    border: none;
+    height: 36px;
+    width: 110px;
+    border-radius: 2px;
+    cursor: pointer;
+  }
+
+  .join-button{
+    background-color: white;
+    border-color: rgb(45, 73, 165);
+    border-style: solid;
+    border-width: 1px;
+    color:rgb(45, 73, 165);
+    height: 36px;
+    width: 60px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-left: 8px;
+  }
+
+  .tweet-button{
+    background-color: rgb(16, 131, 213);
+    color: white;
+    border: none;
+    height: 36px;
+    width: 73px;
+    border-radius: 18px;
+    font-weight: bold;
+    font-size: 13px;
+    cursor: pointer;
+    margin-left: 8px;
+  }
+
+  .uber-button{
+    background-color: black;
+    color: white;
+    height: 40px;
+    width: 96px;
+    margin-left: 8px;
+    font-size: 12px;
+    cursor: pointer;
+    font-weight: light;
+    border-style: solid;
+  }
+
+  .amazon-button{
+    background-color: rgb(255, 216, 20);
+    color: black;
+    font-weight: lighter;
+    height: 40px;
+    width: 151px;
+    margin-left: 9px;
+    cursor: pointer;
+    border-radius: 22px;
+    border: none;
+  }
+
+  .download-button{
+    background-color: white;
+    font-weight: bold;
+    height: 35px;
+    width: 90px;
+    border-width: 0.7px;
+    border-style: solid;
+    border-radius: 2px;
+    color: grey;
+    border-color: grey;
+    cursor: pointer;
+    margin-right: 9px;
+  }
+
+  .company-button{
+    background-color: rgb(10, 102, 194);
+    color: white;
+    border: none;
+    height: 35px;
+    width: 190px;
+    border-width: 0.7px;
+    border-radius: 18px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-right: 9px;
+  }
+
+  .start-button{
+    background-color: rgb(121,82,179);
+    color: white;
+    border: none;
+    height: 35px;
+    width: 90px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 2px;
+  }
+
+  .save-button{
+    background-color: white;
+    color: rgb(10, 102, 194);
+    border-style: solid;
+    height: 35px;
+    width: 65px;
+    font-weight: bold;
+    border-radius: 18px;
+    cursor: pointer;
+    border-color: rgb(10, 102, 194);
+    margin-left: 9px;
+    border-width: 1px;
+  }

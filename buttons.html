@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Buttons Practice </title>
+    <link rel="stylesheet" href="styles/button.css">
+  </head>
+  <body>
+    <p>
+      <b>
+        Youtube:<br>
+      </b> 
+    </p>
+    <a target="_blank" href="https://www.youtube.com/">
+      Click on this link 
+    </a>
+    <button class="subscribe-button">
+      SUBSCRIBE
+    </button>
+    
+    <p>
+      <b>
+        <u>
+          <br>
+          Join the server:
+          <br>
+        </u>
+      </b>
+    </p>
+    <button class="join-button">
+      JOIN
+    </button>
+    
+    <p>
+      <b>
+        <u>
+          <br>
+          Twitter:
+          <br>
+        </u>
+      </b>
+    </p>
+    <button class="tweet-button">
+      Tweet
+    </button>
+    
+    <p>
+      <u>
+        <b>
+          <br>
+          Uber:
+          <br>
+        </b>
+      </u>
+    </p>
+    <button class="uber-button">
+      Request now
+    </button>
+    
+    <p>
+      <u>
+        <br>
+        Amazon:
+        <br>
+      </u>
+    </p>
+    <button class ="amazon-button">
+      Add to Cart
+    </button>
+    
+    <p>
+      <u>
+        <br>
+        Click on the following link:
+        <br>
+      </u>
+    </p>
+    <button class="download-button">
+      Download
+    </button>
+    
+    <p>
+        <br>
+        --Company--
+        <br>
+    </p>
+    <button class="company-button">
+      Apply on company website
+    </button>
+    
+    <p>
+        <br>
+        --START--
+        <br>
+    </p>
+    <button class="start-button">
+      Get started
+    </button>
+    
+    <p>
+        <br>
+        Save the data:
+        <br>
+    </p>
+    <button class="save-button">
+      Save
+    </button>
+  </body>
+</html>
+
+
+<!--button in style is CSS property
+  and red is CSS value & color is for text not like text color or anything
+  border for outline the button set to none means no black outlining
+  "height" is measured for button height in px-> means pixels
+  for rgb is actually clicking on color box for more specific color selection
+  "r" for red "b" for blue and "g" for green 
+  POINT TO REMEMBER: IF all values are set to 255,255,255 then it is White
+  IF all values are set to 0,0,0 then it is Black-->
+<!--"border-radius" is for rounder edges around the button the more pixels the more rounder it will be-->
+<!-- for pointer cursor which changes the cursor shape when it is on button then "cursor" is Used -->
+<!-- FOR button creation HTML is used and for professional Application to make the button more styled! CSS is Used-->
+<!-- For each button css you have to specify the class. So for Subscribe button you have to specify the class which in this case
+  is "subscribe-button" and then "button" in css will be replaced with .(class-name) it can be applied to various member buttons 
+  or a single one! depending on the scenario so ::
+   <button (class) = "class-name"> this class can be assigned same to all other buttons so then it will change according to that class
+    behaviour or if it is assigned to single element then it will apply to that only button! -->
+
+<!--Border-color shows the boundary color and it will apply the mix texture like light the top of button but dark at the bottom of the button
+  So to solve this we are going to use border-style which is set to solid in this case. It means to apply the same texture to every border of the button means same color texture 
+  all over the button (No mixing of/ Variation of color texture)-->
+
+<!--Now for the thickness of the border of the button we can use "border-width". It uses pixels(px) to apply the effect the thinnes of boundary of a button.-->
+<!--In CSS space actually means "margin". Now to provide space meaning margin between buttons we use "margin-right" for right space implementation of a button meaning in this case 
+  to the right of subscribe button. -->
+
+<!--To get the perfect Round-button we can apply the half-pixels for one of the lower pixels used in both height or width. If height is smaller then half of that height will be applied for 
+  round-button which is border-radius pixels and if its width then so on.-->
+
+<!--To apply the bold effect we use font-weight which is set to bold in this case. It is used in styling of font for button--->
+
+<!-- Void elements are those which don't need closing for them. <link> does not have </link> 
+ <link> provides to combine all css Style properties from a seperate file into the HTML code-->
+
+<!-- <link> takes two attributes: "rel" for relation; what kind of thing we are relating to. In this case we are using "stylesheet" and "href" for that file like buttons.css-->
