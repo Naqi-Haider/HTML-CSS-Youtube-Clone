@@ -39,15 +39,9 @@
                 display: block;
             }
 
-            .channel-picture{
-                display: inline-block;
-                width: 50px;
-                vertical-align: top;
-            }
-
-            .video-info{
-                display: inline-block;
-                width: 200px;
+            .Video-info-grid{
+                display: grid;
+                grid-template-columns: 50px 1fr;
             }
 
             .profile-picture{
@@ -79,7 +73,7 @@
         <div class="thumbnail-row">
             <img class="thumbnail" src="thumbnails/thumbnail-1.webp">
         </div>
-        <div>
+        <div class="Video-info-grid">
             <div class="channel-picture">
                 <img class="profile-picture" src="channel-pictures/channel-1.jpeg">
             </div>
@@ -94,22 +88,29 @@
                     3.4M views &#183; 6 months ago
                 </p>
             </div>
-        </div>    
-
-        
+        </div>
         </div>
         <div class="video-preview">
-            <img class="thumbnail" src="thumbnails/thumbnail-2.webp">
-    
-            <p class="video-title">
-                Try Not To Laugh Challenge #9
-            </p>
-            <p class="video-author">
-                Markiplier
-            </p>
-            <p class="video-stats">
-                19M views &#183; 4 years ago
-            </p>
+         
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="thumbnails/thumbnail-2.webp">
+            </div>
+            <div class="Video-info-grid">
+                <div class="channel-picture">
+                    <img class="profile-picture" src="channel-pictures/channel-2.jpeg">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">
+                        Try Not To Laught Challenge # 9
+                    </p>
+                    <p class="video-author">
+                        Markiplier
+                    </p>
+                    <p class="video-stats">
+                        19M views &#183; 4 years ago
+                    </p>
+                </div>
+            </div>
             </div>
     </body>
 </html>
