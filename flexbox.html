@@ -2,6 +2,39 @@
 <html>
     <head>
         <title>Flexbox Practice</title>
+        <style>
+            .HEADER{
+                display: flex;
+                flex-direction: row;
+                height: 55px;
+            }
+
+            .name-site{
+               background-color: lightpink;
+               width: 150px; 
+            }
+
+            .search-site{
+                background-color: lightblue;
+                flex: 1;
+                margin-left: 10px;
+                margin-right: 10px;
+                max-width: 300px;
+            }
+
+            .mic-site{
+                width: 150px;
+                background-color: lightpink;
+            }
+
+            .icons-site{
+                width: 150px;
+                background-color: lightblue;
+            }
+            body{
+                margin: 0;
+            }
+        </style>
     </head>
     <body padding-bottom: 1000px;>
         <div style="
@@ -94,6 +127,21 @@
             width: 100px;">100px</div>
             <div style="background-color: lightblue;
             width: 100px;">100px</div>
+        </div>
+
+        <div class="HEADER">
+            <div class="name-site">
+                YOUTUBE
+            </div>
+            <div class="search-site">
+                SEARCH
+            </div>
+            <div class="mic-site">
+                MIC
+            </div>
+            <div class="icons-site">
+                ICONS
+            </div>
         </div>
     </body>
 </html>
