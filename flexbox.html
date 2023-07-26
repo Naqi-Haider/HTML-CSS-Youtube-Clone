@@ -3,36 +3,80 @@
     <head>
         <title>Flexbox Practice</title>
         <style>
-            .HEADER{
+
+            div{
+                font-family: Arial;
+            }
+            .Header{
+                width: 500px;
+                border-radius: 5px;
+                border-width: 1px;
+                
+                box-shadow: 3px 3px 7px rgba(0,0,0,0.25);
+            }
+
+            .FlexBox{
                 display: flex;
                 flex-direction: row;
-                height: 55px;
+                justify-content: space-between;
+                align-items: center;
+                padding: 12px 6px;
             }
 
-            .name-site{
-               background-color: lightpink;
-               width: 150px; 
+            .Notifications{
+                background-color: rgb(49,109,245);
+                color: white;
+                font-weight: bold;
+                font-size: 13px;
+                padding: 2.5px 10px;
+                border-radius: 16px;
             }
 
-            .search-site{
-                background-color: lightblue;
-                flex: 1;
-                margin-left: 10px;
-                margin-right: 10px;
-                max-width: 300px;
+            .container{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                background-color: rgb(155, 70, 155);
+                color: white;
+                align-items: center;
+                padding-left: 15px;
+                padding-right: 15px;
+
             }
 
-            .mic-site{
-                width: 150px;
-                background-color: lightpink;
+            .Home{
+                font-size: 16px;
+                font-weight: bold;
+                color: white;
+                font-family: Arial;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                padding-left: 20px;
             }
 
-            .icons-site{
-                width: 150px;
-                background-color: lightblue;
+            .Text-box{
+                width: 500px;
+                height: 40px;
+                background-color: white;
+                margin-top: 12px;
+                margin-bottom: 12px;
+                padding-left: 23px;
+                border: none;
+                border-radius: 20px;
             }
-            body{
-                margin: 0;
+
+            button{
+                background-color: rgb(155, 70, 155);
+                color: white;
+                font-size: 15px;
+                border-width: 1px;
+                border-style: solid;
+                padding-left: 16px;
+                padding-right: 16px;
+                padding-top: 8px;
+                padding-bottom: 8px;
+                border-color: white;
+                cursor: pointer;
             }
         </style>
     </head>
@@ -129,19 +173,33 @@
             width: 100px;">100px</div>
         </div>
 
-        <div class="HEADER">
-            <div class="name-site">
-                YOUTUBE
+        <div class="Header">
+            <div class="FlexBox">
+                Home
+                <div class="Notifications">
+                    16
+                </div>
             </div>
-            <div class="search-site">
-                SEARCH
+            <div class="FlexBox">
+                Notifications
+                <div class="Notifications">
+                    3
+                </div>
             </div>
-            <div class="mic-site">
-                MIC
+            <div class="FlexBox">
+                Messages
+                <div class="Notifications">
+                    5
+                </div>
             </div>
-            <div class="icons-site">
-                ICONS
+        </div>
+
+        <div class="container">
+            <div class="Home">
+                Home
             </div>
+            <input class="Text-box" type="text" placeholder="Search">
+            <button class="Download">Download</button>
         </div>
     </body>
 </html>
